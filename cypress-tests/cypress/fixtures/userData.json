@@ -1,0 +1,8 @@
+{
+  "name": "Name Test",
+  "email": "email@test.com",
+  "phone": "42999999999",
+  "city": "Porto Alegre",
+  "birthdate": "1998-01-05",
+  "companies": ["Empresa 1", "Empresa 2", "Empresa 3"]
+}
