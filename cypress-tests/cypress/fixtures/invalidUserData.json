@@ -1,0 +1,50 @@
+{
+  "missingName": {
+    "name": "",
+    "email": "email@test.com",
+    "phone": "42999999999",
+    "city": "Porto Alegre",
+    "birthdate": "1998-01-05",
+    "companies": ["Empresa 1"]
+  },
+  "missingEmail": {
+    "name": "Name Test",
+    "email": "",
+    "phone": "42999999999",
+    "city": "Porto Alegre",
+    "birthdate": "1998-01-05",
+    "companies": ["Empresa 1"]
+  },
+  "invalidEmail": {
+    "name": "Name Test",
+    "email": "invalid-email",
+    "phone": "42999999999",
+    "city": "Porto Alegre",
+    "birthdate": "1998-01-05",
+    "companies": ["Empresa 1"]
+  },
+  "missingPhone": {
+    "name": "Name Test",
+    "email": "email@test.com",
+    "phone": "",
+    "city": "Porto Alegre",
+    "birthdate": "1998-01-05",
+    "companies": ["Empresa 1"]
+  },
+  "invalidPhone": {
+    "name": "Name Test",
+    "email": "email@test.com",
+    "phone": "123",
+    "city": "Porto Alegre",
+    "birthdate": "1998-01-05",
+    "companies": ["Empresa 1"]
+  },
+  "missingCity": {
+    "name": "Nome Test",
+    "email": "email@test.com",
+    "phone": "123456789",
+    "city": "",
+    "birthdate": "1998-01-05",
+    "companies": ["Empresa 1"]
+  }
+}

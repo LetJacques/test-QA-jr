@@ -21,11 +21,21 @@ class CreateUserPage {
   }
 
   fillUserInfo(name, email, phone, city, date) {
-    cy.get(this.selectorsList.nameField).type(name);
-    cy.get(this.selectorsList.emailField).type(email);
-    cy.get(this.selectorsList.phoneField).type(phone);
-    cy.get(this.selectorsList.cityField).type(city);
-    cy.get(this.selectorsList.dateField).type(date);
+    if (name) {
+      cy.get(this.selectorsList.nameField).type(name);
+    }
+    if (email) {
+      cy.get(this.selectorsList.emailField).type(email);
+    }
+    if (phone) {
+      cy.get(this.selectorsList.phoneField).type(phone);
+    }
+    if (city) {
+      cy.get(this.selectorsList.cityField).type(city);
+    }
+    if (date) {
+      cy.get(this.selectorsList.dateField).type(date);
+    }
   }
 
   selectCompany(companyName) {
